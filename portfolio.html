@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>goit-markup-hw-04</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="homework4" />
+    <!-- ICON -->
+    <link rel="icon" href="./images/goit.png" type="image/gif" sizes="16x16" />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav-menu">
+          <a class="logo logo-header" href="./index.html"
+            ><span class="logo logo-accent">Web</span>Studio</a
+          >
+          <ul class="list nav-list">
+            <li>
+              <a class="nav-list-item current" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav-list-item" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="nav-list-item" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="list contacts-list">
+          <li class="item">
+            <a class="contacts-list-item" href="mailto:info@devstudio.com">
+              <svg class="icon-nav">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              <span>info@devstudio.com</span>
+            </a>
+          </li>
+          <li class="item">
+            <a class="contacts-list-item" href="tel:+12127724150"
+              ><svg class="icon-nav">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              <span>+1 212-772-4150</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="portfolio-section section-bottom">
+        <div class="portfolio-container container">
+          <!-- BUTTONS -->
+          <ul class="list portfolio-buttons">
+            <li class="portfolio-list"></li>
+            <button class="btn portfolio-btn decor-btn" type="button">
+              All
+            </button>
+            <li class="portfolio-list">
+              <button class="btn portfolio-btn" type="button">Web-sites</button>
+            </li>
+            <li class="portfolio-list">
+              <button class="btn portfolio-btn" type="button">Apps</button>
+            </li>
+            <li class="portfolio-list">
+              <button class="btn portfolio-btn" type="button">Design</button>
+            </li>
+            <li class="portfolio-list">
+              <button class="btn portfolio-btn" type="button">Marketing</button>
+            </li>
+          </ul>
+
+          <!-- CARDS -->
+          <ul class="portfolio-cards">
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio1.jpg"
+                  alt="Technoduck"
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">Technoduck</h2>
+                  <p>Web-site</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio2.jpg"
+                  alt="Poster New Orlean vs Golden Star"
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">
+                    Poster New Orlean vs Golden Star
+                  </h2>
+                  <p>Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio3.jpg"
+                  alt="Seafood Restaurant "
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">Seafood Restaurant</h2>
+                  <p>Apps</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio4.jpg"
+                  alt="Project Prime"
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">Project Prime</h2>
+                  <p>Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio5.jpg"
+                  alt="Project Boxes"
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">Project Boxes</h2>
+                  <p>Apps</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio6.jpg"
+                  alt="Inspiration has no Borders"
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">Inspiration has no Borders</h2>
+                  <p>Web-site</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio7.jpg"
+                  alt="Limited Edition"
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">Limited Edition</h2>
+                  <p>Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio8.jpg"
+                  alt="Project LAB"
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">Project LAB</h2>
+                  <p>Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-card">
+              <a class="portfolio-card-link" href="#">
+                <img
+                  width="360"
+                  src="./images/studio/studio9.jpg"
+                  alt="Growing Business"
+                />
+                <div class="portfolio-card-wrapper">
+                  <h2 class="h3 portfolio-title">Growing Business</h2>
+                  <p>Apps</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-flex">
+          <div>
+            <a href="./index.html" class="logo"
+              ><span class="logo-accent">Web </span
+              ><span class="logo-regular invers">Studio</span></a
+            >
+            <address>
+              <p class="item">695 Park Ave, NY 10065, USA</p>
+              <span class="item adress-transparency">info@devstudio.com</span>
+              <span class="item adress-transparency">+1 212-772-4150</span>
+            </address>
+          </div>
+          <div>
+            <b class="footer-offer">Find us on</b>
+            <ul class="list footer-soclink">
+              <li class="item">
+                <a class="social-link" href="" aria-label="Instagram">
+                  <svg class="footer-social-link" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" aria-label="Twitter" class="social-link">
+                  <svg class="footer-social-link" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" aria-label="Facebook" class="social-link">
+                  <svg class="footer-social-link" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" aria-label="LinkedIn" class="social-link">
+                  <svg class="footer-social-link" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
